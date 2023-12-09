@@ -1,0 +1,19 @@
+.env
+ngrok.url
+.terraform
+project.url
+*.tfstate
+*.tfstate.*
+# localdev temporary files
+localdev/**/*.db
+localdev/**/*.lock
+localdev/Dockerfile-*
+localdev/**/localdev.auto.tfvars
+# localdev/ngrok.url
+# .ngrok.env
+# localdev/manifests/tfbuddy.env
+localdev/terraform/terraform.auto.tfvars
+localdev/terraform/**/parent.auto.tfvars
+localdev/terraform/gitlab/project.url
+localdev/terraform/github/project.url
+*.tgz
